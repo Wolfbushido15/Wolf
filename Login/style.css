@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap');
+/* Importa uma fonte externa do Google Fonts chamada "Chakra Petch" */
+
+body {
+    font-family: "Chakra petch", sans-serif;
+    /* Define a fonte usada no corpo da página como "Chakra Petch" */
+    
+    display: flex;
+    /* Usa o Flexbox para organizar o layout da página */
+    
+    align-items: center;
+    /* Alinha o conteúdo verticalmente ao centro */
+    
+    justify-content: center;
+    /* Alinha o conteúdo horizontalmente ao centro */
+    
+    height: 100vh;
+    /* Define a altura do body como 100% da altura da tela */
+    
+    margin: 0;
+    /* Remove margens padrão do body */
+    
+    padding: 0;
+    /* Remove o padding padrão do body */
+    
+    background: beige;
+    /* Define a cor de fundo do body como bege */
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* Define o tamanho da fonte como 2.5rem (proporcional ao tamanho base da fonte) */
+    
+    color: aliceblue;
+    /* Define a cor do texto como azul claro (aliceblue) */
+    
+    text-align: center;
+    /* Centraliza o texto horizontalmente */
+}
+
+div {
+    display: flex;
+    /* Define o layout do div como Flexbox */
+    
+    flex-direction: column;
+    /* Organiza os itens dentro do div em uma coluna vertical */
+    
+    align-items: center;
+    /* Alinha os itens no centro horizontalmente */
+    
+    padding: 2rem;
+    /* Adiciona 2rem de espaçamento interno em todos os lados */
+    
+    background-color: rgba(92, 90, 92, 0.9);
+    /* Define uma cor de fundo com opacidade (cinza escuro com 90% de opacidade) */
+    
+    border-radius: 1rem;
+    /* Arredonda os cantos do div com um raio de 1rem */
+    
+    max-width: 400px;
+    /* Define a largura máxima do div como 400px */
+    
+    width: 100%;
+    /* Faz com que o div ocupe 100% da largura disponível */
+}
+
+input {
+    width: 100%;
+    /* Faz com que o input ocupe toda a largura do seu contêiner pai */
+    
+    border: none;
+    /* Remove a borda padrão do input */
+    
+    padding: 1rem;
+    /* Adiciona 1rem de espaçamento interno no input */
+    
+    border-radius: 1.5rem;
+    /* Arredonda os cantos do input com um raio de 1.5rem */
+    
+    margin-bottom: 1.5rem;
+    /* Adiciona um espaçamento inferior de 1.5rem */
+    
+    color: black;
+    /* Define a cor do texto como preto */
+    
+    font-size: 1rem;
+    /* Define o tamanho da fonte dentro do input como 1rem */
+    
+    box-sizing: border-box;
+    /* Inclui o padding e a borda no cálculo total da largura e altura do input */
+}
+
+button {
+    padding: 0.8rem 1.2rem;
+    /* Adiciona 0.8rem de espaçamento vertical e 1.2rem de espaçamento horizontal no botão */
+    
+    border: none;
+    /* Remove a borda padrão do botão */
+    
+    border-radius: 1rem;
+    /* Arredonda os cantos do botão com um raio de 1rem */
+    
+    font-size: 1rem;
+    /* Define o tamanho da fonte dentro do botão como 1rem */
+    
+    cursor: pointer;
+    /* Muda o cursor para uma mãozinha quando o mouse passa sobre o botão */
+    
+    background-color: #a7a7a7;
+    /* Define a cor de fundo do botão como um cinza claro (#a7a7a7) */
+    
+    color: white;
+    /* Define a cor do texto do botão como branco */
+    
+    margin-bottom: 2rem;
+    /* Adiciona um espaçamento inferior de 2rem */
+}
+
+button:hover {
+    background-color: #a39c9c;
+    /* Muda a cor de fundo do botão ao passar o mouse para um cinza um pouco mais escuro */
+}
+
